@@ -179,6 +179,8 @@ Error message and password prompt
 
 <li>$:/GitHub/Username</li>
 
+<li>$:/Import</li>
+
 <li>$:/isEncrypted</li>
 
 <li>$:/language/DefaultNewTiddlerTitle</li>
@@ -198,6 +200,8 @@ Error message and password prompt
 <li>$:/state/folded/Visual Sudio Code</li>
 
 <li>$:/state/image-picker/system--134751788</li>
+
+<li>$:/state/image-picker/system-156862999</li>
 
 <li>$:/state/showeditpreview</li>
 
@@ -247,8 +251,6 @@ Error message and password prompt
 
 <li>Delivering a Relational Data Warehouse</li>
 
-<li>Draft of 'Introduction to Computer Science and Programming in Python' by Patryk</li>
-
 <li>Future of Data Engineering</li>
 
 <li>Home</li>
@@ -261,11 +263,21 @@ Error message and password prompt
 
 <li>Kafka change data capture breaks database encapsulation</li>
 
+<li>Metoda STAR</li>
+
 <li>NeoVim</li>
 
 <li>Notatki z kursów</li>
 
+<li>Programowanie obiektowe</li>
+
 <li>Ranger</li>
+
+<li>Rozmowa kwalifikacyjna</li>
+
+<li>Rozmowa kwalifikacyjna data engineer</li>
+
+<li>SOLID</li>
 
 <li>Strefa czasowa</li>
 
@@ -278,6 +290,8 @@ Error message and password prompt
 <li>Timzone w Airflow</li>
 
 <li>Visual Sudio Code</li>
+
+<li>Wzorce projektowe programowania obiektowego</li>
 
 <li>Zasady notesa</li>
 
@@ -9539,6 +9553,16 @@ Error message and password prompt
 <div created="20200324074352665" creator="Patryk" modified="20200324074354135" modifier="Patryk" title="$:/GitHub/Username">
 <pre>pkonarzewski</pre>
 </div>
+<div plugin-type="import" status="pending" title="$:/Import" type="application/json">
+<pre>{
+    &quot;tiddlers&quot;: {
+        &quot;Untitled&quot;: {
+            &quot;title&quot;: &quot;Untitled&quot;,
+            &quot;text&quot;: &quot;Rozmowy kwalyfikacyjne&quot;
+        }
+    }
+}</pre>
+</div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
@@ -9569,10 +9593,13 @@ Error message and password prompt
 <div created="20200323151526496" creator="Patryk" modified="20200323151527204" modifier="Patryk" title="$:/state/image-picker/system--134751788">
 <pre>hide</pre>
 </div>
-<div created="20200324074306514" creator="Patryk" modified="20200326200451163" modifier="Patryk" title="$:/state/showeditpreview">
+<div created="20200329081210280" creator="Patryk" modified="20200329081211081" modifier="Patryk" title="$:/state/image-picker/system-156862999">
+<pre>hide</pre>
+</div>
+<div created="20200324074306514" creator="Patryk" modified="20200329081315396" modifier="Patryk" title="$:/state/showeditpreview">
 <pre>no</pre>
 </div>
-<div created="20200323150202897" creator="Patryk" modified="20200327102223411" modifier="Patryk" title="$:/state/sidebar">
+<div created="20200323150202897" creator="Patryk" modified="20200329081627088" modifier="Patryk" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
 <div created="20200323185126987" creator="Patryk" modified="20200323185240594" modifier="Patryk" title="$:/state/tab--1963855381">
@@ -9596,7 +9623,7 @@ Error message and password prompt
 <div created="20200323150803438" creator="P" modified="20200323150803955" modifier="Patry" title="$:/status/UserName">
 <pre>Patryk</pre>
 </div>
-<div created="20200326102055932" creator="Patryk" list="[[Draft of 'Introduction to Computer Science and Programming in Python' by Patryk]] [[Delivering a Relational Data Warehouse]] [[CS50 - Harvard]]" modified="20200326200444133" modifier="Patryk" title="$:/StoryList">
+<div created="20200328184546527" creator="Patryk" list="Home [[Rozmowa kwalifikacyjna]] [[Metoda STAR]] [[Rozmowa kwalifikacyjna data engineer]] [[Programowanie obiektowe]] [[Wzorce projektowe programowania obiektowego]] SOLID" modified="20200329080722371" modifier="Patryk" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200323185222734" creator="Patryk" list="$:/core/ui/Buttons/more-tiddler-actions $:/core/ui/Buttons/info $:/core/ui/Buttons/new-here $:/core/ui/Buttons/new-journal-here $:/core/ui/Buttons/clone $:/core/ui/Buttons/export-tiddler $:/core/ui/Buttons/edit $:/core/ui/Buttons/delete $:/core/ui/Buttons/permalink $:/core/ui/Buttons/permaview $:/core/ui/Buttons/open-window $:/core/ui/Buttons/close-others $:/core/ui/Buttons/fold-others $:/core/ui/Buttons/close $:/core/ui/Buttons/fold $:/core/ui/Buttons/fold-bar" modified="20200323185222734" modifier="Patryk" title="$:/tags/ViewToolbar">
@@ -10051,7 +10078,100 @@ several falg or tex columns with low cardinality can be grouped into one. you cr
 when you count events, it store a combination of dimension key values
 </pre>
 </div>
-<div created="20200326194623537" creator="Patryk" draft.of="Introduction to Computer Science and Programming in Python" draft.title="Introduction to Computer Science and Programming in Python" modified="20200326202722462" modifier="Patryk" title="Draft of 'Introduction to Computer Science and Programming in Python' by Patryk">
+<div created="20200326193721293" creator="Patryk" modified="20200326194012418" modifier="Patryk" title="Future of Data Engineering">
+<pre>[[link do prezentacji|https://www.infoq.com/presentations/data-engineering-pipelines-warehouses/]]
+
+Rozwój infrastuktury danowej, etapy:
+
+* Etap 0. None
+** baza produkcyjne (lub kopia) do której wszysci się łączą i pracują na niej
+* 1. Batch
+** dane ładowane są codziennie do bazy raportowej (dwh)
+** problemy z create_time, modify_time, brak propagacji dla hard deletów, problemy wydajnościowe
+* 2. Realtime
+** korzystanie z platformy streamingowej np. Kafka, Debezium
+** CDC
+* 3. Integration
+* 4. Automation
+* 5. Decentralization
+
+
+Technologia:
+
+* [[Debezium]]
+* [[Kafka]]
+* [[Amundsen]]</pre>
+</div>
+<div created="20200323150036806" creator="Patryk" modified="20200329080600481" modifier="Patryk" title="Home">
+<pre>!! Computer Science
+
+* [[Technologie]]
+* [[Hurtownie danych]]
+* [[Programowanie obiektowe]]
+
+!! Wiedza ogólna
+
+* .
+
+!! Notatki
+
+* [[Książki|Streszczenia książek]]
+* [[Kursy|Notatki z kursów]]
+* [[Prezentacje i artykuły|Streszczenia prezentacji i artykułów]]
+
+!! Ściąga
+
+* [[Programy|Ściąga programy]]
+
+!! Metawiedza
+
+* [[Zasady prowadzenia notatek|Zasady notesa]]
+* [[Nauka]]
+* [[Rozmowa kwalifikacyjna]]
+* [[Komunikacja]]</pre>
+</div>
+<div created="20200325200511292" creator="Patryk" modified="20200326193600683" modifier="Patryk" title="Hurtownie danych">
+<pre>!! Zagadnienia
+
+* [[CDC]]</pre>
+</div>
+<div created="20200326101450277" creator="Patryk" modified="20200326102149488" modifier="Patryk" title="i3m">
+<pre>Wariant Regolight.
+
+!! Skróty klawiszowe
+
+$mod refers to the modifier key (alt by default)
+
+!!! General
+
+| !   skrót     |!                           opis                           |
+| $mod+Enter   | otwórz terminal                                          |
+| $mode+Shift+Enter | otwórz domyślną przeglądarkę |
+| $mod+space       | Otwórz dmenu                  |
+| $mod+r       | Przełączanie resize mode                    |
+| $mod+shift+c | reload config file                                       |
+| $mod+shift+q | kill window (does normal close if application supports it) |
+
+!!! Windows
+
+|! skrót  |!                            opis                             |
+| $mod+w | tabbed layout                                               |
+| $mod+e | vertical and horizontal layout (switches to and between them) |
+| $mod+s | stacked layout                                              |
+| $mod+f | fullscreen                                                  |
+
+!!! Moving Windows
+
+|!           skrót           |!                            opis                             |
+| $mod+shift+direction key | Move window in direction (depends on direction keys settings) |
+
+!!! Inne
+
+| $mod+shift+e | exit i3                                                  |
+| $mod+shift+r | restart i3 in place                                      |
+</pre>
+</div>
+<div created="20200326194623537" creator="Patryk" modified="20200328132145750" modifier="Patryk" title="Introduction to Computer Science and Programming in Python">
 <pre>[[strona kursu|https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/index.htm]]
 
 [[slajdy|https://onedrive.live.com/?id=1D982CBFAB0D3F19%2125071&amp;cid=1D982CBFAB0D3F19]]
@@ -10204,243 +10324,6 @@ when you count events, it store a combination of dimension key values
 * koncepcja: best case, average case i worst case
 * orders of growth</pre>
 </div>
-<div created="20200326193721293" creator="Patryk" modified="20200326194012418" modifier="Patryk" title="Future of Data Engineering">
-<pre>[[link do prezentacji|https://www.infoq.com/presentations/data-engineering-pipelines-warehouses/]]
-
-Rozwój infrastuktury danowej, etapy:
-
-* Etap 0. None
-** baza produkcyjne (lub kopia) do której wszysci się łączą i pracują na niej
-* 1. Batch
-** dane ładowane są codziennie do bazy raportowej (dwh)
-** problemy z create_time, modify_time, brak propagacji dla hard deletów, problemy wydajnościowe
-* 2. Realtime
-** korzystanie z platformy streamingowej np. Kafka, Debezium
-** CDC
-* 3. Integration
-* 4. Automation
-* 5. Decentralization
-
-
-Technologia:
-
-* [[Debezium]]
-* [[Kafka]]
-* [[Amundsen]]</pre>
-</div>
-<div created="20200323150036806" creator="Patryk" modified="20200326201647890" modifier="Patryk" title="Home">
-<pre>!! Computer Science
-
-* [[Technologie]]
-* [[Hurtownie danych]]
-
-!! Wiedza ogólna
-
-* .
-
-!! Notatki
-
-* [[Książki|Streszczenia książek]]
-* [[Kursy|Notatki z kursów]]
-* [[Prezentacje i artykuły|Streszczenia prezentacji i artykułów]]
-
-!! Ściąga
-
-* [[Programy|Ściąga programy]]
-
-!! Metawiedza
-
-* [[Zasady prowadzenia notatek|Zasady notesa]]
-* [[Nauka]]
-</pre>
-</div>
-<div created="20200325200511292" creator="Patryk" modified="20200326193600683" modifier="Patryk" title="Hurtownie danych">
-<pre>!! Zagadnienia
-
-* [[CDC]]</pre>
-</div>
-<div created="20200326101450277" creator="Patryk" modified="20200326102149488" modifier="Patryk" title="i3m">
-<pre>Wariant Regolight.
-
-!! Skróty klawiszowe
-
-$mod refers to the modifier key (alt by default)
-
-!!! General
-
-| !   skrót     |!                           opis                           |
-| $mod+Enter   | otwórz terminal                                          |
-| $mode+Shift+Enter | otwórz domyślną przeglądarkę |
-| $mod+space       | Otwórz dmenu                  |
-| $mod+r       | Przełączanie resize mode                    |
-| $mod+shift+c | reload config file                                       |
-| $mod+shift+q | kill window (does normal close if application supports it) |
-
-!!! Windows
-
-|! skrót  |!                            opis                             |
-| $mod+w | tabbed layout                                               |
-| $mod+e | vertical and horizontal layout (switches to and between them) |
-| $mod+s | stacked layout                                              |
-| $mod+f | fullscreen                                                  |
-
-!!! Moving Windows
-
-|!           skrót           |!                            opis                             |
-| $mod+shift+direction key | Move window in direction (depends on direction keys settings) |
-
-!!! Inne
-
-| $mod+shift+e | exit i3                                                  |
-| $mod+shift+r | restart i3 in place                                      |
-</pre>
-</div>
-<div created="20200326194623537" creator="Patryk" modified="20200326194826557" modifier="Patryk" title="Introduction to Computer Science and Programming in Python">
-<pre>[[strona kursu|https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/index.htm]]
-
-[[slajdy|https://onedrive.live.com/?id=1D982CBFAB0D3F19%2125071&amp;cid=1D982CBFAB0D3F19]]
-
-!! Wykłady
-
-!!! 1. What is Computation?
-
-* declarative
-* imperative
-* algorytm
-* fixed program computer - wykonuje jedno zadanie, np. prymitywny kalkulator
-* stored program computer - maszyna przechowuje i wykonuje instrukcje
-* built-in
-* steps, flow of control, when to stop -&gt; algorithm
-
-* Podstawowa architektura komputera
-
-* Memory
-* ALU
-* Control Unit
-* Input Output
-
-* primitve constructors - numbers, strings, etc
-* syntax - blad skladni
-* static semantics - blad np. dodawanie tekstu do numerow
-
-* operator
-* operand
-
-* program manipulates objects
-* commands
-* data objects
-* objects has types
-* scalar object (cant be subdivided)?
-* non-scalar (have internal structure that can be accessed)
-* type conversion (implicite, explicite)
-
-* scalars
-* int
-* float
-* bool
-* NoneType
-
-* float -&gt; int - truncate after decimal
-
-* expressions - combine objects and operators
-* expresion has a value with type
-* syntex for simple expression - object operator object
-* assignment
-
-* operatory: + - * / %(reszta z dzielenia remainder) ** (potegowanie power)
-* operator precedence
-
-* re-bind variable - previous value may still be stored in memory but lost the handle for it
-
-!!! 2. Branching and Iteration
-
-* string - sequenc of characters
-* concatonation of strings
-* input(&quot;Type anything&quot;)
-* operatory porównawcze
-* operatory logiczne
-* control flow (branching), condition
-* control flow loops
-
-!!! 3. String Manipulation, Guess and Check, Approximations, Bisection
-
-* strings - sequence of characters
-* string indexing
-* slice [start:stop:step=1]
-* strings are immutable
-* for char in word:
-* exhaustive enumeration
-* approximate solutions
-* bisection search
-
-!!! 4. Decomposition, Abstractions, Functions
-
-* decomposition: modules, function, clases
-* abstraction - supressing details
-* call /invoke function
-* variable scope
-* formal actual parameter
-* scope mozna uznac jako new environment
-* w Pythonie funkcja nie ma w ciele return, to interperete doda &quot;return None&quot;
-* In python function can access variable from outer scope, but can change them
-* ale mozna to zrobic global variable
-
-!!! 5. Tuples, Lists, Aliasing, Mutability, and Cloning
-
-* tuple są immutable, listy są mutable
-* compund data types: data consists of other type data
-* swap variable (x, y) = (y, x)
-* `//` integer division
-* % division remainder modulo
-* del(some_list[1])
-* split, join
-* list sorted is inplace, sorte() returns copy
-* cloning a list bla[:]
-
-!!! 6. Recursion, Dictionaries
-
-* recursion - function calls itself (divide-and-conquer or decrease-and-conquer)
-* recursion
-** recursion step - reduce problem to simpler / smaller version of same problem
-** base case - case that can be solved directly after reduction
-** each recursion call to a function crates its own scope/environment
-** inductive reasoning
-** examples
-*** towers of hanoi
-*** fibonacci
-*** factorial
-*** palindrom
-* dictionaries (mutable, unordered), key, value, look ups
-* del (dict_name[key_name])
-* memoization
-
-!!! 7. Testing, Debugging, Exceptions, and Assertions
-
-* classes of tests
-** unit testing - testing each function
-** regression testing - add test for bugs as you found and rerun tests
-** integration testing - check overall program works
-* testing approach
-** intuition - based on problem create tests
-** black box testing - explore test paths through specification
-** glass box testing - explore paths through code
-
-!!! Lecture 8: Object Oriented Programming
-
-* object has: type, data representation, interactions
-* object is an instance of class
-* atributes and methods
-* special methods
-
-!!! Lecture 9: Python Classes and Inheritance
-
-* class definition of an object type vs instance of class
-* getters and setters
-* inheretance
-* class variables
-
-</pre>
-</div>
 <div created="20200326194154735" creator="Patryk" modified="20200326194310668" modifier="Patryk" title="Kafka change data capture breaks database encapsulation">
 <pre>[[Artykuł|https://riccomini.name/kafka-change-data-capture-breaks-database-encapsulation]]
 
@@ -10462,6 +10345,20 @@ Technologie wymienione:
 * [[ Confluent]]
 * [[Liquibase]], [[Flayway]], [[Alembic]]
 * [[Flink]], [[Spark Streaming]], [[Kafka streams]], [[Samza]]</pre>
+</div>
+<div created="20200329080725982" creator="Patryk" modified="20200329081542708" modifier="Patryk" title="Metoda STAR">
+<pre>Metoda STAR w rozmowach rekrutacyjnych. 
+
+[img[http://pkonarzewski.github.io/wiki/res/start-method.png]]
+
+Składa się z 4 elementów:
+* S - Situation - Sytuacja
+* T - Task - Zadanie
+* A - Action - Akcja
+* R - Result - Rozwiązanie
+
+
+[[The STAR Method|https://www.vawizard.org/wiz-pdf/STAR_Method_Interviews.pdf]]</pre>
 </div>
 <div created="20200326101252360" creator="Patryk" modified="20200326101356333" modifier="Patryk" title="NeoVim">
 <pre>!! Tryby
@@ -10500,6 +10397,10 @@ Technologie wymienione:
 * [[CS50 - Harvard]]
 * [[Delivering a Relational Data Warehouse]]</pre>
 </div>
+<div created="20200328184550421" creator="Patryk" modified="20200329053342164" modifier="Patryk" title="Programowanie obiektowe">
+<pre>* [[Reguła SOLID|SOLID]]
+* [[Wzorce projektowe| Wzorce projektowe programowania obiektowego]]</pre>
+</div>
 <div created="20200326101136559" creator="Patryk" modified="20200326101216926" modifier="Patryk" title="Ranger">
 <pre>nowy folder - :mkdir
 
@@ -10512,6 +10413,68 @@ zmiana nazwy - cw
 sortowanie - o
 
 pokaz/ukryj ukryte - zh</pre>
+</div>
+<div created="20200329073212674" creator="Patryk" modified="20200329080720985" modifier="Patryk" title="Rozmowa kwalifikacyjna">
+<pre>!! Umiejętności miękkie
+
+* [[Metoda STAR]]
+
+!! Umiejętności twarde
+
+!! Tematyczne
+
+* [[Data Engineer|Rozmowa kwalifikacyjna data engineer]]</pre>
+</div>
+<div created="20200329074040788" creator="Patryk" modified="20200329080540998" modifier="Patryk" title="Rozmowa kwalifikacyjna data engineer">
+<pre>!! Ogólne wymagania
+
+* Dobre umiejętności analityczne
+* Rozwiązywanie trudnych problemów
+* Komunikatywność
+* Techniczne
+* Praca z dużymi zbiorami danych
+* Budowanie solidnych i skalowalnych systemów
+
+!! Przykładowy przebieg rekrutacji
+
+# Telefoniczne / telekonferencja
+## Rozmowa z HR'em - ogólna pogadanka: czemu tu chcesz pracować, twoje doświadczenie, plany na rozwój, dlaczego chcesz być DE w tej firmie. Testowanie komunikatywności. Warto wiedzieć jak najwięcej o firmie.
+## Rozmowa techniczna - Testowanie podstawowych technicznych umiejętności. Umiejętność rozwiązywania problemów oraz komunikowanie na poziomie technicznym. Przykładowo: czym są listy wiązane, różnice między sql i nosql i kiedy używa się danych rozwiązań.
+# Zadanie domowe online
+## Zadania np. z hackerrank. Sprawdzenie czy znasz algorytmy i struktury danych, umiesz rozwiązać standardowe prolbemy CS, uwzględniasz &quot;edge cases&quot; i robienie tego odpowiednio szybko
+## Zadanie do zakodowania - Sprawdzają styl kodowania, strukturę projektów, zarządzanie wyjątkami, testy jednostkowe itd.
+# W biurze
+## Algorytmy i struktury danych - na tablicy - Sprawdzenie znajomości najważniejszych zagadnień
+## Projektowanie systemów - Sprawdzenie znajomości elementów z jakich składają się współczesne systemy. Pytanie np. zaprojektuj Twittera, z czego musi się składać, jakie bazy, jakie schematy, znajomość distributed systems
+## Bazy danych i ich optymalizacja - Bardzo dobra znajomość sql, np. normalizacja, indeksy, EXPLAIN plany
+## Dopasowanie do kultury firmy
+
+!! Tematy
+
+*
+
+!! Materiały
+
+* [[How to Prepare for Your Data Engineering Interview|https://towardsdatascience.com/how-to-prepare-for-your-data-engineering-interview-d245519da45c]]</pre>
+</div>
+<div created="20200328184610387" creator="Patryk" modified="20200328191455719" modifier="Patryk" tags="wip" title="SOLID">
+<pre>Opis
+
+!! S - Single responsibility principle
+
+!! O - Open/closed principle
+
+A class is open to extension but closed to modification. We prefer to wrap or extend classes. We prefer not to modify or tweak a class. When we make a change to a class, we are careful to be sure that the ripple touches the entire hierarchy and all of the collaborators.
+
+!! L - Liskov substitution principle
+
+In essence, this is a test for proper polymorphism. If classes are truly polymorphic, one can be substituted for another.
+
+!! I - Interface segregation principle
+
+!! D - Dependency inversion principle
+
+This principle guides us toward creating common abstractions.</pre>
 </div>
 <div created="20200323151219767" creator="Patryk" modified="20200323182916549" modifier="Patryk" title="Strefa czasowa">
 <pre>Strefa czasowa (ang. timezone) - Wytyczony obszar powieszchni Ziemi o szerokości 15 stopni (mamy 24 strefy czasowe), w któym obowiązuje jednakowy czas strefowy. Przeważnie jest to średni czas środkowego południka, różnica między sąsaidującymi strefami wynosi 1 godzinę.
@@ -10670,6 +10633,13 @@ ctrl+` toogle panel dolny
 ctrl+sift+` stwory nowy panel
 
 !!! Moje</pre>
+</div>
+<div created="20200329053350065" creator="Patryk" modified="20200329053741506" modifier="Patryk" title="Wzorce projektowe programowania obiektowego">
+<pre>todo
+
+* [[Budowniczy|Budowniczy OOP]]
+* [[Strategia|Strategia OOP]]
+* [[Fabryka|Fabryka OOP]]</pre>
 </div>
 <div created="20200326195623659" creator="Patryk" modified="20200326195659308" modifier="Patryk" title="Zasady notesa">
 <pre>* [[Strona z opisem podejścia podobnego do tiddly wiki|https://notes.andymatuschak.org/%C2%A7Note-writing_systems]]</pre>
