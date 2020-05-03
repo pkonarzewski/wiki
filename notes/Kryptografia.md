@@ -2,16 +2,19 @@
 tags: [Indeks]
 title: Kryptografia
 created: '2020-04-27T09:02:40.479Z'
-modified: '2020-04-27T09:02:50.936Z'
+modified: '2020-05-03T11:01:21.273Z'
 ---
 
 # Kryptografia
 
 * [[PGP]]
 * [[Szyfrowanie symetryczne]]
-* [[Kryptografia klucza publicznego (Szyfrowanie asymetryczne) | Szyfrowanie asymetryczne]]
-* [[RSA]]
-* [[TLS]]
+* [[Kryptografia klucza publicznego (Szyfrowanie asymetryczne)|Szyfrowanie asymetryczne]]
+* [[Wady i zalety szyfrownia symetrycznego i asymetrycznego]]
+
+* [[RSA|Algorytm RSA]]
+* [[TLS|Protokół TLS]]
+
 
 ## Linki
 
@@ -22,4 +25,3 @@ modified: '2020-04-27T09:02:50.936Z'
 * https://www.binance.vision/pl/security/what-is-public-key-cryptography
 * https://www.thegeekstuff.com/2012/10/gnupg-basics/
 * https://www.thegeekstuff.com/2012/07/cryptography-basics/
-
