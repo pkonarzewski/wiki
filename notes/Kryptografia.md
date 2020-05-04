@@ -2,7 +2,7 @@
 tags: [Indeks]
 title: Kryptografia
 created: '2020-04-27T09:02:40.479Z'
-modified: '2020-05-03T11:01:21.273Z'
+modified: '2020-05-04T11:16:55.077Z'
 ---
 
 # Kryptografia
@@ -11,10 +11,8 @@ modified: '2020-05-03T11:01:21.273Z'
 * [[Szyfrowanie symetryczne]]
 * [[Kryptografia klucza publicznego (Szyfrowanie asymetryczne)|Szyfrowanie asymetryczne]]
 * [[Wady i zalety szyfrownia symetrycznego i asymetrycznego]]
-
 * [[RSA|Algorytm RSA]]
 * [[TLS|Protokół TLS]]
-
 
 ## Linki
 
