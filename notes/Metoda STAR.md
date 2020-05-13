@@ -2,7 +2,7 @@
 attachments: [STAR_Method_Interviews.pdf, star_method.png]
 title: Metoda STAR
 created: '2020-04-27T09:28:53.367Z'
-modified: '2020-05-03T09:52:34.908Z'
+modified: '2020-05-09T20:56:48.337Z'
 ---
 
 # Metoda STAR
@@ -15,7 +15,7 @@ Podzielmy ją na 4 części:
 * A - Action - Akcja -  ten element to odpowiedź na pytanie, co zrobiłeś ''ty'', by osiągnąć cel, jak działałeś, z jakich pomocy skorzystałeś.
 * R - Result - Rozwiązanie - w ostatniej części mówisz o tym, jakie były rezultaty twojego działania i czy cel został osiągnięty.
 
-![image](@attachment/start_method.png)
+![img](@attachment/star_method.png)
 
 * [The STAR Method Interviews](@attachment//STAR_Method_Interviews.pdf)
 * [Jak funkcjonuje metoda STAR w rekrutacji?](https://poradnikpracownika.pl/-jak-funkcjonuje-metoda-star-w-rekrutacji)

@@ -3,7 +3,7 @@ pinned: true
 tags: [Indeks]
 title: HOME
 created: '2020-04-27T08:52:51.249Z'
-modified: '2020-05-03T10:00:12.232Z'
+modified: '2020-05-09T11:08:37.106Z'
 ---
 
 # HOME
@@ -22,9 +22,7 @@ modified: '2020-05-03T10:00:12.232Z'
 * [[PaaS]]
 * [[Agile]]
 
-## Data Science
-
-*
+## [[Data Science]]
 
 ## Pozostałe
 
