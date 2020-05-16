@@ -1,4 +1,5 @@
 ---
+tags: [wip]
 title: Kimball's Four-Step Dimensional Design Process
 created: '2020-05-12T19:06:45.515Z'
 modified: '2020-05-13T20:19:08.238Z'
