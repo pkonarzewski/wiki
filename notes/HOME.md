@@ -3,35 +3,25 @@ pinned: true
 tags: [Indeks]
 title: HOME
 created: '2020-04-27T08:52:51.249Z'
-modified: '2020-05-14T20:19:42.087Z'
+modified: '2020-05-16T15:24:39.602Z'
 ---
 
 # HOME
 
-## Computer Science
+## [[Plany]]
 
-* [[Języki programowania]]
-* [[Technologie]]
-* [[SQL]]
-* [[Hurtownie danych]]
-* [[Nosql]]
-* [[Programowanie obiektowe]]
-* [[Programowanie funkcyjne]]
-* [[Algorytmy i struktury danych]]
-* [[Architektura systemów komputerowych]]
-* [[Kryptografia]]
-* [[PaaS]]
-* [[Agile]]
+## [[Computer Science]]
 
 ## [[Data Science]]
 
-## Pozostałe
-
-* [[Matematyka]]
-
 ## Wiedza ogólna
 
+* [[Angielski]]
+* [[Matematyka]]
+* [[Biologia]]
 * [[Geografia]]
+* [[Filozofia]]
+* [[Pozostałe]]
 
 ## Notatki
 
@@ -49,3 +39,4 @@ modified: '2020-05-14T20:19:42.087Z'
 * [[Uczenie]]
 * [[Rozmowy kwalifikacyjne|Rozmowa kwalifikacyjna]]
 * [[Komunikacja]]
+* [[Organizacja pracy]]
