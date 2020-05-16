@@ -3,13 +3,14 @@ pinned: true
 tags: [Indeks]
 title: HOME
 created: '2020-04-27T08:52:51.249Z'
-modified: '2020-05-09T11:08:37.106Z'
+modified: '2020-05-14T20:19:42.087Z'
 ---
 
 # HOME
 
 ## Computer Science
 
+* [[Języki programowania]]
 * [[Technologie]]
 * [[SQL]]
 * [[Hurtownie danych]]
