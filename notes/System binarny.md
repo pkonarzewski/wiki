@@ -1,7 +1,7 @@
 ---
 title: System binarny
 created: '2020-05-16T15:23:13.561Z'
-modified: '2020-05-16T15:23:28.178Z'
+modified: '2020-05-17T12:35:33.302Z'
 ---
 
 # System binarny

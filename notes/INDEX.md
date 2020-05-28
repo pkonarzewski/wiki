@@ -1,12 +1,12 @@
 ---
 pinned: true
 tags: [Indeks]
-title: HOME
+title: INDEX
 created: '2020-04-27T08:52:51.249Z'
-modified: '2020-05-16T15:24:39.602Z'
+modified: '2020-05-22T19:40:57.340Z'
 ---
 
-# HOME
+# INDEX
 
 ## [[Plany]]
 
@@ -22,6 +22,7 @@ modified: '2020-05-16T15:24:39.602Z'
 * [[Geografia]]
 * [[Filozofia]]
 * [[Pozostałe]]
+* [[Jedzenie]]
 
 ## Notatki
 

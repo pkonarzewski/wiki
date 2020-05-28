@@ -1,7 +1,7 @@
 ---
 title: Computer Science
 created: '2020-05-16T15:24:41.962Z'
-modified: '2020-05-16T16:01:52.427Z'
+modified: '2020-05-17T10:14:24.059Z'
 ---
 
 # Computer Science
@@ -20,6 +20,10 @@ modified: '2020-05-16T16:01:52.427Z'
 * [[Agile]]
 * [[CS zrzutka]]
 * [[Podstawy kompilatorów]]
+
+## Ścieżki
+
+* [[Data Engineer]]
 
 ## zrzutka
 
